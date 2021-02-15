@@ -123,5 +123,5 @@ function qTime(){
     alert('I am sorry, You failed the quiz with a score of: ' + count +'/5.');
   }
 
-
+  alert('Thanks for your time, '+ fName + '!');
 }
