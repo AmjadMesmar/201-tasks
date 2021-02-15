@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+
+	<title>Lab 01</title>
+
+	<style type="text/css">
+		
+#title {
+
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+.para {
+
+	text-indent: 10px;
+	border: 3px solid black;
+
+}
+
+
+
+	</style>
+</head>
+<body>
+	<header></header>
+
+	<main>
+
+	<h1 id="title">Class 1 Lab</h1>
+		
+<p class="para" style="background: gray; color: green;">What's your name?</p>
+<p class="para" style="background: blue; color: red;">How old are you?</p>
+<p class="para" style="background: lime; color: yellow;">Where are you from?</p>
+<p class="para" style="background: cyan; color: olive;">Do you have pets?</p>
+
+	</main>
+
+<script type="text/javascript">
+
+
+	let fname = prompt("What's your name?"); 
+	console.log("The person's name: "+ fname);
+	alert("Hello " + fname +"!");
+
+	let age = prompt("How old are you?"); 
+	console.log("The person's age: "+ age);
+	alert("I love the number " + age +"!");
+
+	let loc = prompt("Where are you from?"); 
+	console.log("The persons location: " + loc);
+	alert("I would love to visit "+ loc + " someday!");
+
+	let pet = prompt("Do you have pets?"); 
+	console.log("Do they have pets?: "+ pet);
+	alert("Pets are the best change you can bring to your life! :D");
+
+
+ do
+{
+  var ans = prompt("Bonus question: Do you like this page?");
+}
+while((ans == null || ans == "" ) || ans.toLowerCase() != "yes")
+
+ console.log("Do they love this page? ABSOLUTLY! ");
+ alert("Great answer, I love it! ;)");
+
+
+ alert("Name: " + fname + "  | " + "Age: " + age + "  | " + "Location: " + loc + "  | " + "Have pets?: " + pet);
+
+
+
+/* ALTERNATIVE CODE WITHOUT USING let :
+
+
+do
+{
+  var  fname = prompt("What's your name?");
+}
+while(fname == null || fname == "" );
+
+ console.log("Giving the user's name: "+ fname);
+ alert("Hello " + fname +"!");
+
+
+
+do
+{
+   var age = prompt("How old are you?");
+}
+while((age == null || age == "" ) || (age >100 || age <=5));
+
+ console.log("The person's age: "+ age);
+ alert("I love the number " + age +"!");
+
+
+do
+{
+   var loc = prompt("Where are you from?");
+}
+while(loc == null || loc == "" )
+
+ console.log("The persons location: " + loc);
+ alert("I would love to visit "+ loc + " someday!");
+
+ do
+{
+  var  pet = prompt("Do you have pets?");
+}
+while(pet == null || pet == "" )
+
+console.log("Do they have pets?: "+ pet);
+alert("Pets are the best change you can bring to your life! :D"); */
+
+</script>
+
+</body>
+<footer> &copy; Amjad Mesmar</footer>
+</html>
